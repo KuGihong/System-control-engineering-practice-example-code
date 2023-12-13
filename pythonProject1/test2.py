@@ -10,10 +10,10 @@ zeta = 0.25
 wn = 1
 
 # numerator
-num = np.array([wn**2])
+num = np.array([1])
 
 # denominator
-den = np.array([1, 2*zeta*wn, wn**2])
+den = np.array([1, 30, 124, 240])
 
 # making transfer function
 G = ctrl.tf(num, den)
